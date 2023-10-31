@@ -1,0 +1,201 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Mplus 1p";
+  src: url(font/MPLUS1p-Medium.ttf);
+  src: url(font/MPLUS1p-Regular.ttf);}
+  @font-face {
+    font-family: "Raleway";
+    src: url(font/Raleway-Regular.ttf);}
+
+  body{
+    background-color: rgb(255, 255, 255);
+  }
+
+.row{
+color:  #122947;;
+font-family: "Mplus 1p";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.carousel-control-next{
+  border: none !important;
+}
+.carousel-control-prev{
+  border: none !important;
+}
+.visually-hidden{
+  display: none !important;
+}
+.container1{
+  background-image: url(img/ФОН1.jpg);
+  max-width: 200%;
+  background-position: center;
+}
+.carousel-control-next{
+  width: 3%;
+}
+.carousel-control-prev{
+  width: 3%;
+}
+.row{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+.card{
+  border: none;
+  color: #122947;
+  font-family: 'Mplus 1p';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.button{
+  border: none;
+  width:  20px;
+  border-radius: 5px;
+}
+
+.t1{
+  color: #122947;
+  font-family: 'Raleway';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  padding-bottom: 20px;
+}
+
+.container3{
+  background-image: url(img/fonchic.jpg);
+
+  background-position: center;
+}
+.t2{
+  color: #122947;
+  font-family: 'Mplus 1p';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 145%;
+  padding-bottom: 15px;
+}
+.card-title{color: #122947;
+  font-family: 'Mplus 1p';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;}
+
+.t4{
+  font-size: 18px;
+}
+.modal-title{
+  font-size: 1.5rem;
+}
+.d-flex1{
+  width: 150px;
+}
+.grup-title{
+
+}
+.grup-text{
+  max-width: 70%;
+}
+.d-flex{
+  align-items: center;
+}
+.container34{
+  padding-top: 15px;
+  background: #F4F1ED;
+  padding-bottom: 30px;
+}
+.column.t1{
+  padding: 5px;
+}
+
+
+@media (max-width: 1024px) {
+
+  .row{
+    font-size: 15px !important; }
+  
+  
+}
+
+  
+@media (max-width: 768px){
+  .card-text{
+    font-size: 10px !important;
+
+  }
+ 
+  .row.justify-content-around{
+    display: none;
+  }
+  .card-title{
+    font-size: 12px !important;  
+  }
+  .card-title.text-left{
+    font-size: 12px !important;
+  }
+  .btn.btn-outline-secondary{
+    font-size: 12px !important;
+  }
+  .container.text-center {
+    font-size: 10px !important; 
+  }
+  .t2{
+    font-size: 10px !important;  
+  }
+  .grup-text.text-center{
+    font-size: 10px !important;  
+  }
+  .form-control.text-center{
+    font-size: 12px !important;
+  }
+  .grup-title.text-center{
+    font-size: 12px !important;
+  }
+  .d-flex.justify-content-between.allign-items-center{
+    display: none !important;
+  }
+  
+}
+
+@media(max-width: 426px){
+  .container3{
+    background-image: url(img/fonchic.jpg);
+  
+    background-size: auto;
+
+  }
+  .t1{
+    font-size: 10px !important;
+  }
+  .card-text.text-center{display: none;}
+  .btn.btn-outline-secondary{
+    font-size: 9px !important;
+  }
+  .card-title{
+    font-size: 10px !important;  
+  }
+  .card-title.text-left{
+    font-size: 10px !important;
+  }
+  .t2 {
+    font-size: 9px !important;
+}
+.img{
+  max-width: 7px !important;
+}
+.col-xxl-1{
+  display: none;
+}
+
+
+
+}
